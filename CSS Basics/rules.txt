@@ -1,0 +1,53 @@
+CSS syntax:-
+selector{
+  property:value;
+}
+
+selectors:-
+elements: body,h1,h2,p,...,etc.
+.class:
+#id:
+inline:
+-------------------------------
+universal selector(*):
+
+combinators & multiple selector (, & space & > & + & ~)
+,: and
+space: 2 is inside 1 ingoring the order
+>: 2 is the direct child for 1
++: 2 that is after 1
+~: any 2 that is after 1 ingoring the order
+
+
+attributes selector:-
+[attr^=val] starts with
+[attr$=val] ends with val
+[attr*=val] contains val
+[attr~=val] a whole word that contains with val
+[attr|=val] a whole word that starts with val 
+
+pseudo-classes (:hover, :active, etc)
+pseudo-elements (::after, ::before::, ::first-letter, ::first-line, ::selection)
+
+specific hierarchy:-
+inline>id>class>element>*
+
+
+attributes:-
+color, background & borders, basic box, text,
+text decoration, fonts, writing models, table,
+list & counters, basic user interface, paged media, generated content.
+
+values:-
+keywords: thin,thick, large
+physical measurement: inch(in) point(pt), cm, measurement
+screen measurement: pixels(px)
+relative measurement: %,em,rem(1.0em default size)
+colores codes: red, green, #rrggbb
+fonts(multivalues): helvitica, sans-serif
+function notations: Rgb(r,g,b), url("https://www.google.com")
+short hand: p{border: 5px solid red}
+
+rules:-
+1)color:
+2)background-color:

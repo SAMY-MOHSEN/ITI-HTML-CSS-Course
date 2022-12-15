@@ -1,0 +1,6 @@
+div::selection {
+  content: "Hello world";
+  color: red;
+  padding: 100px;
+  margin: 100px;
+}
